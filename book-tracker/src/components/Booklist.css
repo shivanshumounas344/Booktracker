@@ -1,0 +1,108 @@
+.booklist-container {
+    
+    margin: 40px auto;
+    padding: 24px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+
+}
+
+.booklist-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 24px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.booklist-form {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.booklist-input {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #b2bec3;
+    font-size: 1rem;
+}
+
+.booklist-add-btn {
+    background: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.booklist-add-btn:hover {
+    background: #219150;
+}
+
+.booklist-ul {
+    list-style: none;
+    padding: 0;
+}
+
+.booklist-li {
+    background: #fff;
+    margin-bottom: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: row ; 
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.booklist-bookname {
+    font-weight: bold;
+    color: #34495e;
+}
+
+.booklist-author {
+    color: #636e72;
+}
+
+.booklist-desc {
+    color: #b2bec3;
+    font-size: 0.95rem;
+}
+
+.booklist-remove-btn {
+    align-self: flex-end;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background 0.2s;
+}
+.booklist-remove-btn:hover {
+    background: #c0392b;
+}
+
+.booklist-clear-btn {
+    width: 100%;
+    background: #636e72;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: background 0.2s;
+}
+.booklist-clear-btn:hover {
+    background: #2d3436;
+}
